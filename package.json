@@ -2,7 +2,11 @@
   "name": "useelementwidth",
   "version": "1.0.7",
   "description": "A React hook for watching an element's width.",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
+  "exports": {
+    "require": "./dist/index.js",
+    "default": "./dist/index.modern.js"
+  },
   "scripts": {
     "build": "microbundle"
   },

@@ -6,6 +6,9 @@ import { useCallback, useEffect, useState } from 'react'
  * @param {Ref} ref element to use in width calculation
  */
 const useElementWidth = ref => {
+  // handle ssr
+  if (!window?.ResizeObserver) return;
+
   const getWidth = useCallback(() => {
     return ref?.current?.getBoundingClientRect().width * (window.visualViewport?.scale || 1) || 0
   }, [ref?.current])
