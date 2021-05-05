@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/notthatnathan/useElementWidth/issues"
   },
-  "homepage": "https://github.com/notthatnathan/useElementWidth#readme"
+  "homepage": "https://github.com/notthatnathan/useElementWidth#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
