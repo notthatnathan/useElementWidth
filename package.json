@@ -1,6 +1,6 @@
 {
   "name": "useelementwidth",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A React hook for watching an element's width.",
   "main": "dist/index.js",
   "exports": {
