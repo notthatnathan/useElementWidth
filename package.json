@@ -1,0 +1,19 @@
+{
+  "name": "useelementwidth",
+  "version": "1.0.0",
+  "description": "A React hook for watching an element's width.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notthatnathan/useElementWidth.git"
+  },
+  "author": "Nathan Fitzsimmons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notthatnathan/useElementWidth/issues"
+  },
+  "homepage": "https://github.com/notthatnathan/useElementWidth#readme"
+}
