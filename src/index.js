@@ -7,7 +7,7 @@ import { useCallback, useEffect, useState } from 'react'
  */
 const useElementWidth = ref => {
   // handle ssr
-  if (!window?.ResizeObserver) return;
+  if (typeof window === 'undefined') return 0;
 
   const getWidth = useCallback(() => {
     return ref?.current?.getBoundingClientRect().width * (window.visualViewport?.scale || 1) || 0
