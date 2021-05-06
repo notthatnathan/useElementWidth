@@ -6,26 +6,26 @@ Example:
 
 ```js
 const Element = () => {
-	const ref = useRef()
-	const width = useElementWidth(ref)
+  const ref = useRef()
+  const width = useElementWidth(ref)
 
-	const classNames = width > 300 ?  styles.wide : ''
+  const classNames = width > 300 ?  styles.wide : ''
 
-	return (
-		<div ref={ref} className={`${styles.el} ${classNames}`} />
-	)
+  return (
+    <div ref={ref} className={`${styles.el} ${classNames}`} />
+  )
 }
 ```
 
 ```css
 .el {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .wide {
-	flex-direction: row;
+  flex-direction: row;
 }
 ```
 
